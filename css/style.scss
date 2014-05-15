@@ -1,0 +1,40 @@
+@import "compass/utilities";
+@import "compass/css3";
+
+/**
+* @author 	Ivan Zhou
+* @date 	2013-12-18
+* @email	a@ivanzhou.com
+* @info    reset + page css
+* ******** From SASS *********
+*/
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p,th,td{margin:0;padding:0;border:0}
+table{border-collapse:collapse;border-spacing:0}
+img{border:0}
+em,strong,th{font-style:normal;font-weight:normal}
+ul,ol,li{list-style:none}
+th{text-align:left}
+h1,h2,h3,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+input{font-family:inherit;font-size:inherit;font-weight:inherit;font-size:100%;}
+
+/* custormer reset */
+body{ font:normal 12px/1.5 tahoma,arial,\5b8b\4f53; background-color:#1a1a1a; }
+h1,h2,h3{ font-family:\5FAE\8F6F\96C5\9ED1,Simsun,arial,\5b8b\4f53;}
+h1{font-size:18px;} h2{font-size:14px;}
+strong{font-weight:bold;}
+input { resize: none; outline: none; }
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+
+.cf:before,.cf:after {content:"";display:table;}
+.cf:after {clear:both;}
+.cf {zoom:1;}
+
+.inner{
+	width:960px;
+	margin:0 auto;
+}
+
+

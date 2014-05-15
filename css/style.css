@@ -1,0 +1,68 @@
+/**
+* @author 	Ivan Zhou
+* @date 	2013-12-19
+* @email	a@ivanzhou.com
+* @info    reset + page css
+* ******** From SASS *********
+*/
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, p, th, td { margin: 0; padding: 0; border: 0; }
+img { border: 0; }
+em, strong, th { font-style: normal; font-weight: normal; }
+ul, ol, li { list-style: none; }
+th { text-align: left; }
+h1, h2, h3, h6 { font-size: 100%; font-weight: normal; }
+q:before, q:after { content: ''; }
+body { font: normal 12px/1.5 tahoma,arial,\5b8b\4f53; background-color: #1a1a1a; -webkit-text-size-adjust: none; }
+h1, h2, h3 { font-family: \5FAE\8F6F\96C5\9ED1; }
+h1 { font-size: 18px; }
+h2 { font-size: 14px; }
+strong { font-weight: bold; }
+input { resize: none; outline: none; }
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+
+.player { height: 195px; position: relative; background: #ccc; }
+.player h2 { position: absolute; top: 14px; left: 14px; font-size: 18px; color: #fff; text-shadow: 0px 0px 5px #040000; z-index: 999999; }
+.player video { width: 100%; height: 195px; }
+
+.personal { height: 45px; background-color: #040409; position: relative; }
+.personal .header { width: 69px; height: 69px; border-radius: 100%; background-color: rgba(255, 255, 255, 0.4); position: absolute; left: 15px; top: -35px; }
+.personal .header span { width: 58px; height: 58px; border-radius: 100%; border: 2px solid #fff; background-color: white; display: block; position: absolute; top: 3px; left: 4px; overflow: hidden; }
+.personal .header img { width: 72px; display: block; }
+.personal .text { padding-left: 90px; line-height: 45px; font-size: 16px; color: #fff; }
+
+.content { padding-bottom: 15px; }
+.content .tabs { width: 210px; padding: 15px 0; margin: 0 auto; }
+.content .tabs a { width: 68px; height: 29px; line-height: 29px; border-radius: 30px; padding-left: 32px; color: #fff; font-size: 14px; float: right; position: relative; }
+.content .tabs a:nth-child(1) { float: left; }
+.content .tabs a.active { background-color: #272727; }
+.content .tabs a.active .more_select { background-position: 0 -153px; }
+.content .tabs a.active .review_select { background-position: 0 -181px; }
+.content .tabs .icon { width: 14px; height: 14px; display: block; overflow: hidden; position: absolute; background: url(../images/icon-s04e4650148.png) no-repeat 0 0; -webkit-background-size: 69px 195px; top: 8px; left: 12px; }
+.content .tabs .more_select { background-position: 0 -139px; }
+.content .tabs .review_select { background-position: 0 -167px; }
+.content .cmt-list { overflow: hidden; }
+.content .cmt-list > a { border-top: 1px solid #151515; margin-top: -1px; padding: 10px 0; display: block; }
+.content .cmt-list > a div:nth-child(1) { width: 60px; float: left; }
+.content .cmt-list > a div:nth-child(2) { margin-left: 60px; padding-right: 15px; line-height: 22px; }
+.content .cmt-list .h1 { color: #fff; font-size: 16px; font-weight: bold; word-break: keep-all; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.content .cmt-list .h2 { color: #919191; font-size: 16px; }
+.content .cmt-list .img { width: 36px; height: 36px; display: block; border: 2px solid #fff; border-radius: 100%; margin: 0 auto; overflow: hidden; position: relative; }
+.content .cmt-list .img img { width: 72px; display: block; position: absolute; }
+.content .view { padding: 0 5px; }
+.content .view > div { width: 50%; float: left; }
+.content .view a { width: 145px; height: 145px; margin: 0 auto 10px; display: block; background-color: black; }
+.content .view .img { width: 145px; height: 109px; overflow: hidden; position: relative; }
+.content .view .img img { width: 145px; display: block; }
+.content .view .img > span { width: 31px; height: 12px; background: url(../images/icon-s04e4650148.png) no-repeat 0 -69px; -webkit-background-size: 69px 195px; display: block; position: absolute; top: 10px; right: 0; }
+.content .view .des { height: 36px; padding: 5px 0 0 0; position: relative; }
+.content .view .h1, .content .view .h2 { width: 78%; color: #fff; font-size: 14px; line-height: 14px; padding-left: 5px; word-break: keep-all; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+.content .view .h2 { font-size: 12px; color: #909090; }
+.content .view .num { width: 22px; height: 22px; margin: 0 auto; border-radius: 100%; background-color: #001e33; display: block; text-align: center; color: #5ac7ff; line-height: 22px; position: absolute; right: 5px; top: 6px; z-index: 2; }
+
+.gototop, .gototop a { width: 45px; height: 45px; }
+
+.gototop { position: fixed; right: 10px; bottom: 10px; z-index: 99999; }
+.gototop a { background: url(../images/top.png) no-repeat; -webkit-background-size: 45px 45px; display: block; }
