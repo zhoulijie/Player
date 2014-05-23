@@ -1,4 +1,3 @@
 Player
 ======
-
-Player~
+PPLive Player
